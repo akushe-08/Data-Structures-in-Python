@@ -23,10 +23,6 @@ class LinkedList:
             temp2.next = node
 
 
-
-
-
-
     def insert(self, inp, pos=None):
         if not (0 < pos <= len(self)):
             print ("Invalid position")
@@ -46,11 +42,6 @@ class LinkedList:
             node.next = temp3
             return
 
-
-
-
-            
-
             
     def print(self):
         temp2 = self.head
@@ -65,6 +56,8 @@ class LinkedList:
         #     print(temp2.data)
         #     temp2 = temp2.next
 
+
+
     def __len__(self):
         if self.head == None:
             return 0
@@ -78,19 +71,11 @@ class LinkedList:
                 temp2 = temp2.next
             return length
 
-
-
-
-
     # def print(self):
     #     temp2 = self.head
     #     while temp2 != None:
     #         print(temp2.data)
     #         temp2 = temp2.next
-
-
-
-
 
 
 my_ll = LinkedList()
